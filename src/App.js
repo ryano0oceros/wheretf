@@ -17,6 +17,7 @@ function App() {
   const dt9= new Date("2022-06-26");
   const dt10= new Date("2022-07-01");
   const dt11= new Date("2022-07-13");
+  const dt12= new Date("2022-08-18");
 
 
   return (
@@ -33,7 +34,8 @@ function App() {
           || (view === 'month' && date >= dt7 && date <= dt8 ? <p>France<img id="x" src="https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/32/France-Flag-icon.png" alt="France!"/></p> : null)
           || (view === 'month' && date >= dt8 && date <= dt9 ? <p>USA<img id="x" src="https://icons.iconarchive.com/icons/custom-icon-design/flag-3/32/United-States-Flag-icon.png" alt="USA!"/></p> : null)
           || (view === 'month' && date >= dt9 && date <= dt10 ? <p>Ireland<img id="x" src="https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/32/Ireland-Flag-icon.png" alt="Ireland!"/></p> : null)
-          || (view === 'month' && date >= dt10 && date <= dt11 ? <p>Greece<img id="x" src="https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/32/Greece-Flag-icon.png" alt="Greece!"/></p> : null)}
+          || (view === 'month' && date >= dt10 && date <= dt11 ? <p>Greece<img id="x" src="https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/32/Greece-Flag-icon.png" alt="Greece!"/></p> : null)
+          || (view === 'month' && date >= dt11 && date <= dt12 ? <p>Rwanda<img id="x" src="https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/32/Rwanda-Flag-icon.png" alt="Greece!"/></p> : null)}
           // // onChange={setDate}
           // value={date}
           selectRange={true}
