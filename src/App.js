@@ -18,9 +18,9 @@ function App() {
   const dt10= new Date("2022-07-01");
   const dt11= new Date("2022-07-13");
   const dt12= new Date("2022-08-18");
-  const dt13= new Date("2022-08-20");
-  const dt14= new Date("2022-08-25");
-  const dt15= new Date("2022-09-02");
+  const dt13= new Date("2022-11-27");
+  //const dt14= new Date("2022-08-25");
+  //const dt15= new Date("2022-09-02");
 
   return (
     <div className='app'>
@@ -39,8 +39,8 @@ function App() {
           || (view === 'month' && date >= dt10 && date <= dt11 ? <p>Greece<img id="x" src="https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/32/Greece-Flag-icon.png" alt="Greece!"/></p> : null)
           || (view === 'month' && date >= dt11 && date <= dt12 ? <p>Rwanda<img id="x" src="https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/32/Rwanda-Flag-icon.png" alt="Greece!"/></p> : null)
           || (view === 'month' && date >= dt12 && date <= dt13 ? <p>Kenya<img id="x" src="https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/32/Kenya-Flag-icon.png" alt="Greece!"/></p> : null)
-          || (view === 'month' && date >= dt13 && date <= dt14 ? <p>Tanzania<img id="x" src="https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/32/Tanzania-Flag-icon.png" alt="Greece!"/></p> : null)
-          || (view === 'month' && date >= dt14 && date <= dt15 ? <p>Kenya<img id="x" src="https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/32/Kenya-Flag-icon.png" alt="Greece!"/></p> : null)}
+          //|| (view === 'month' && date >= dt13 && date <= dt14 ? <p>Tanzania<img id="x" src="https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/32/Tanzania-Flag-icon.png" alt="Greece!"/></p> : null)
+          //|| (view === 'month' && date >= dt14 && date <= dt15 ? <p>Kenya<img id="x" src="https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/32/Kenya-Flag-icon.png" alt="Greece!"/></p> : null)}
           // // onChange={setDate}
           // value={date}
           selectRange={true}
