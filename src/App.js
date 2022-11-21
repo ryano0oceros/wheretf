@@ -20,7 +20,13 @@ function App() {
   const dt12= new Date("2022-08-18");
   const dt13= new Date("2022-10-07");
   const dt14= new Date("2022-10-17");
-  const dt15= new Date("2022-12-15");
+  const dt15= new Date("2022-10-26");
+  const dt16= new Date("2022-11-03");
+  const dt17= new Date("2022-11-11");
+  const dt18= new Date("2022-11-20");
+  const dt19= new Date("2022-12-13");
+  const dt20= new Date("2022-12-18");
+  const dt21= new Date("2023-01-15");
 
   return (
     <div className='app'>
@@ -40,7 +46,13 @@ function App() {
           || (view === 'month' && date >= dt11 && date <= dt12 ? <p>Rwanda<img id="x" src="https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/32/Rwanda-Flag-icon.png" alt="Greece!"/></p> : null)
           || (view === 'month' && date >= dt12 && date <= dt13 ? <p>Kenya<img id="x" src="https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/32/Kenya-Flag-icon.png" alt="Greece!"/></p> : null)
           || (view === 'month' && date >= dt13 && date <= dt14 ? <p>Tanzania<img id="x" src="https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/32/Tanzania-Flag-icon.png" alt="Greece!"/></p> : null)
-          || (view === 'month' && date >= dt14 && date <= dt15 ? <p>Kenya<img id="x" src="https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/32/Kenya-Flag-icon.png" alt="Greece!"/></p> : null)}
+          || (view === 'month' && date >= dt14 && date <= dt15 ? <p>Kenya<img id="x" src="https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/32/Kenya-Flag-icon.png" alt="Greece!"/></p> : null)
+          || (view === 'month' && date >= dt15 && date <= dt16 ? <p>Zanzibar<img id="x" src="https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/32/Tanzania-Flag-icon.png" alt="Greece!"/></p> : null)
+          || (view === 'month' && date >= dt16 && date <= dt17 ? <p>Nairobi<img id="x" src="https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/32/Kenya-Flag-icon.png" alt="Greece!"/></p> : null)
+          || (view === 'month' && date >= dt17 && date <= dt18 ? <p>Watamu<img id="x" src="https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/32/Kenya-Flag-icon.png" alt="Greece!"/></p> : null)
+          || (view === 'month' && date >= dt18 && date <= dt19 ? <p>Nairobi<img id="x" src="https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/32/Kenya-Flag-icon.png" alt="Greece!"/></p> : null)
+          || (view === 'month' && date >= dt19 && date <= dt20 ? <p>Egypt<img id="x" src="https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/32/Egypt-Flag-icon.png" alt="Greece!"/></p> : null)
+          || (view === 'month' && date >= dt20 && date <= dt21 ? <p>USA<img id="x" src="https://icons.iconarchive.com/icons/custom-icon-design/flag-3/32/United-States-Flag-icon.png" alt="USA!"/></p> : null)}
           // // onChange={setDate}
           // value={date}
           selectRange={true}
